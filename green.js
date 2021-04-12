@@ -1,4 +1,4 @@
-class Pink{
+class Green{
 
     constructor(x,y,width,height){
         var options={
@@ -15,10 +15,7 @@ class Pink{
     display(){
         var pos=this.body.position;
         rectMode(CENTER)
-        fill ("#FFBEC4")
+        fill ("#BAFFC9")
         rect(pos.x,pos.y,this.width,this.height);
-       
-      }
-    
-    
     }
+      }

@@ -15,7 +15,7 @@ class Purple{
     display(){
         var pos=this.body.position;
         rectMode(CENTER)
-        fill ("#848394")
+        fill ("#C3B1E1")
         rect(pos.x,pos.y,this.width,this.height);
        
       }
